@@ -1,6 +1,6 @@
 #!/bin/bash
-#NS=$( cat /etc/xray/dns )
-#PUB=$( cat /etc/slowdns/server.pub )
+NS=$( cat /etc/xray/dns )
+PUB=$( cat /etc/slowdns/server.pub )
 domain=$(cat /etc/xray/domain)
 #color
 grenbo="\e[92;1m"
